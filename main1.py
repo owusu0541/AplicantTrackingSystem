@@ -10,7 +10,7 @@ load_dotenv(override=True)
 
 google.generativeai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 st.title("Applicant Tracking System")
-st.markdown("Enhance your resume for interview success; assess its strengths and weaknesses against the job description and receive tailored recommendations for improvement.")
+st.markdown("Enhance your resume for interview calls; assess its strengths and weaknesses against the job description and receive tailored recommendations for improvement.")
 st.sidebar.title("Profile of the Developer") 
 
 st.sidebar.subheader("Name: Lawrence Owusu")
