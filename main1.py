@@ -43,7 +43,7 @@ job_description = st.text_area("Job Description")
 uploaded_file = st.file_uploader("Upload Your Resume", type="pdf", help="PDF format *")
 
 # Move text extraction to after button click and file check
-submit = st.button("Submit your uploaded resume")
+submit = st.button("Submit your uploaded resume for report")
 
 if submit:
     if uploaded_file is None:
